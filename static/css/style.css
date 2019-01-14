@@ -24,7 +24,7 @@ h2 {
 }
 
 .emphasis-container {
-  font-size: 700%;
+  font-size: 5vw;
   font-size-adjust: initial;
   letter-spacing: -2px;
   line-height: 110%;
@@ -33,10 +33,22 @@ h2 {
   left: 4%;
 }
 
+.align-center {
+  text-align: center;
+}
+
 .half-container {
   width: 50%;
   height: 100%;
   flex-wrap: wrap;
+}
+
+.right-half-information {
+  font-size: 1.25vw;
+}
+
+.right-half-information p {
+  font-size: 1vw;
 }
 
 .right-side-title {
@@ -83,13 +95,17 @@ nav.inline-flex a {
   height: 5%;
 }
 
-.contact-ul {
+.full-width-center-ul {
   width: 100%;
   text-align: center;
 }
 
-.contact-ul li {
+.full-width-center-ul li {
   padding: 0.5vw;
+}
+
+.align-start {
+  text-align: start !important;
 }
 
 #linkedin {
