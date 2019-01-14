@@ -5,7 +5,6 @@ ul {
 }
 
 li {
-  height: 100%;
   font-size: 36px;
 }
 
@@ -15,6 +14,8 @@ h2 {
 }
 
 .main-container {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
   position: absolute;
   display: flex;
   margin-top: 5%;
@@ -23,7 +24,8 @@ h2 {
 }
 
 .emphasis-container {
-  font-size: 5.2vw;
+  font-size: 700%;
+  font-size-adjust: initial;
   letter-spacing: -2px;
   line-height: 110%;
   position: fixed;
@@ -35,6 +37,10 @@ h2 {
   width: 50%;
   height: 100%;
   flex-wrap: wrap;
+}
+
+.right-side-title {
+  font-size: 2.5vw;
 }
 
 .inline-flex {
@@ -75,4 +81,55 @@ nav.inline-flex a {
   width: 100%;
   background-color: #333;
   height: 5%;
+}
+
+.contact-ul {
+  width: 100%;
+  text-align: center;
+}
+
+.contact-ul li {
+  padding: 0.5vw;
+}
+
+#linkedin {
+  display: inline-block;
+  color: #000 !important;
+  background: #fdfdfd;
+  background: -webkit-linear-gradient(#fdfdfd, #eee);
+  background: -moz-linear-gradient(#fdfdfd, #eee);
+  background: -o-linear-gradient(#fdfdfd, #eee);
+  background: linear-gradient(#fdfdfd, #eee);
+  text-decoration: none;
+  font-size: 20px !important;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: inherit;
+  font-weight: bold;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  width: 105px;
+}
+
+#linkedin:hover {
+  opacity: 0.8;
+}
+
+#icon-bg {
+  display: inline-block;
+  background: #007bb6;
+  background: -webkit-linear-gradient(#81bedb, #007bb6);
+  background: -moz-linear-gradient(#81bedb, #007bb6);
+  background: -o-linear-gradient(#81bedb, #007bb6);
+  background: linear-gradient(#81bedb, #007bb6);
+  color: #fff;
+  padding: 0px 5px 3px;
+  border-radius: 3px;
+  border: 1px solid #3f7eb7;
+  font-size: 24px;
+  margin: -1px;
+}
+
+#icon-label-bg {
+  display: inline-block;
+  padding: 3px 5px 3px 5px;
 }

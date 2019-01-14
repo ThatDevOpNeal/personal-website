@@ -8,7 +8,7 @@ const About = () => (
       <Title />
     </div>
     <div className="half-container">
-      <h1 className="margin-padding-zero">About Me</h1>
+      <h1 className="margin-padding-zero right-side-title">About Me</h1>
     </div>
   </div>
 );
