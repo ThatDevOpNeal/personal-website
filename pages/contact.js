@@ -14,7 +14,7 @@ const Contact = () => (
       <Title />
     </div>
     <div className="half-container">
-      <h1 className="margin-padding-zero right-side-title">Contact Information</h1>
+      <h1 className="right-side-title">Contact Information</h1>
       <ul className="full-width-center-ul margin-padding-zero">
         <li>
           <Linkedin />

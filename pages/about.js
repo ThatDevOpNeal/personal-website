@@ -9,7 +9,7 @@ const About = () => (
       <Title />
     </div>
     <div className="half-container">
-      <h1 className="margin-padding-zero right-side-title">About Me</h1>
+      <h1 className="right-side-title">About Me</h1>
       <div className="align-center right-half-information">
         <h2>
           I'm Neal Bharucha, an excited developer and <i>near</i> avid coffee drinker.

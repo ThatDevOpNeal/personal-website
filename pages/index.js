@@ -9,7 +9,7 @@ const Index = () => (
       <Title />
     </div>
     <div className="half-container">
-      <h1 className="margin-padding-zero right-side-title">Welcome To My Website!</h1>
+      <h1 className="right-side-title">Welcome To My Website!</h1>
     </div>
   </div>
 );
